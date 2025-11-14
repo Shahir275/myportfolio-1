@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Types Example</title>
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: darkblue;
+            text-align: center;
+        }
+        p {
+            color: green;
+            font-size: 18px;
+        }
+        h3 {
+            color: purple;
+            text-decoration: underline;
+            text-align: left;
+        }
+        .external-text {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color: red; text-align:center;">Welcome to CSS Practice</h1>
+    <!-- Internal CSS applied -->
+    <h2>This is styled with Internal CSS</h2>
+    <p>This paragraph uses internal CSS for font and color.</p>
+    <!-- Simulating External CSS (merged into Internal) -->
+    <h3>This heading is styled using (External → merged here)</h3>
+    <p class="external-text">This text is styled using (External → merged here).</p>
+</body>
+</html>
